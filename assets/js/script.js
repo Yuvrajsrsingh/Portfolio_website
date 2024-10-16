@@ -164,7 +164,7 @@ function type() {
     } else {
       isDeleting = false;
       positionIndex = (positionIndex + 1) % positions.length; // Move to next position
-      setTimeout(type, -1); // Pause before typing next position
+      setTimeout(type, 500); // Pause before typing next position
     }
   } else {
     if (charIndex < positions[positionIndex].length) {
