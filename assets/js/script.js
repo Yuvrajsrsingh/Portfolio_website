@@ -145,7 +145,7 @@ const positions = [
   "Security Engineer",
   "Application Developer",
 ];
-const autoTypeElement = document.querySelector(".auto-type");
+const autoTypeElement = document.querySelector("");
 let positionIndex = 0;
 let charIndex = 0;
 let typingSpeed = 100; // Speed of typing
