@@ -140,12 +140,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 // autotype
 const positions = [
   "Full Stack Developer",
-  "AI-ML Engineer",
-  "Backend Developer",
-  "Security Engineer",
+  "Software Engineer",
+  "Data Scientist",
   "Application Developer",
+  "DevOps Engineer",
 ];
-const autoTypeElement = document.querySelector("");
+const autoTypeElement = document.querySelector(".auto-type");
 let positionIndex = 0;
 let charIndex = 0;
 let typingSpeed = 100; // Speed of typing

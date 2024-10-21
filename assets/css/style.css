@@ -191,6 +191,7 @@ article {
 
 .icon-box {
   position: relative;
+
   background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
@@ -365,10 +366,13 @@ main {
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
-  font-weight: var(--fw-300);
+
+  font-weight: var(--fw-700); /* Or use bold */
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow */
 }
 
 .info_more-btn {
@@ -1231,7 +1235,7 @@ main {
 }
 
 .mapbox iframe:hover {
-  filter: contrast(1.4) brightness(0.5) saturate(1.5) hue-rotate(20deg)
+  filter: contrast(1.4) brightness(1) saturate(1.5) hue-rotate(20deg)
     drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.4));
 }
 
@@ -1285,6 +1289,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-btn {
+  margin-bottom: 10px;
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
@@ -1615,7 +1620,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .clients-item {
-    min-width: calc(33.33% - 35px);
+    min-width: calc(33.33% - 5px);
   }
 
   /**
@@ -2045,9 +2050,9 @@ textarea.form-input::-webkit-resizer {
 
 /* // autotype  */
 .auto-type {
-  border-right: 2px solid #fff;
+  border-right: 2px solid #ffffff;
   white-space: nowrap;
-
+  color: var(--orange-yellow-crayola);
   overflow: hidden;
   width: fit-content;
   animation: caret 0.7s step-end infinite;
@@ -2057,4 +2062,21 @@ textarea.form-input::-webkit-resizer {
   50% {
     border-color: transparent;
   }
+}
+.position {
+  display: inline; /* Ensures the text stays on the same line */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: normal; /* Customize the weight if necessary */
+}
+
+.auto-type {
+  display: inline; /* Keeps the span inline with the text */
+  color: #f3b344; /* Set your desired color */
+  font-weight: bold; /* Optional: bold styling */
+}
+/* cloud-image */
+.hlo,
+cloud-image {
+  color: #f3b344;
+  font-size: 40px;
 }
