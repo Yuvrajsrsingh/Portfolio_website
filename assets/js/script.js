@@ -140,8 +140,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 // autotype
 const positions = [
   "Full Stack Developer",
-  "Software Engineer",
-  "Data Scientist",
+  "AI Enthusiast",
   "Application Developer",
   "DevOps Engineer",
 ];
