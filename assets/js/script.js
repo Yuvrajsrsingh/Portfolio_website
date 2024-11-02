@@ -138,12 +138,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 // autotype
-const positions = [
-  "Full Stack Developer",
-  "AI Enthusiast",
-  "Application Developer",
-  "DevOps Engineer",
-];
+const positions = ["Full Stack Developer", "AI Enthusiast", "DevOps Engineer"];
 const autoTypeElement = document.querySelector(".auto-type");
 let positionIndex = 0;
 let charIndex = 0;
